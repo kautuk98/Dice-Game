@@ -44,6 +44,7 @@ document.querySelector(".btn-hold").addEventListener("click", function() {
   }
 });
 
+// D-R-Y application
 function nextPlayer() {
   activePlayer === 0 ? (activePlayer = 1) : (activePlayer = 0);
   roundScore = 0;
